@@ -1,0 +1,2 @@
+def sanitize_input(input_string):
+    return input_string_replace('<', '&lt;'). replace('>', '&gt;')
